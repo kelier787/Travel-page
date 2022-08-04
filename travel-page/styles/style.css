@@ -1,0 +1,89 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/icons/ocean.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgb(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0px;
+  margin: 0px auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 50px;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: yellow;
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(231, 223, 7);
+}
+
+#destination {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
+
+#highlights h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(59, 69, 54);
+  margin: 24px 0;
+}
+
+.destination img {
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  height: 200px;
+  padding: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+strong {
+  color: rgb(0, 160, 117);
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+#highlights {
+  text-transform: uppercase;
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
